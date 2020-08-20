@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2760848318958925267}
   - component: {fileID: 2760848318958925266}
   - component: {fileID: 2760848318958925269}
-  - component: {fileID: 2760848318958925268}
+  - component: {fileID: 426007814491013386}
   m_Layer: 0
   m_Name: Low Cover
   m_TagString: Untagged
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: aba5b22acf391f9409e0278101426526, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!64 &2760848318958925268
-MeshCollider:
+--- !u!65 &426007814491013386
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -305,7 +305,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 3.0000005, y: 1.25, z: 2.0000002}
+  m_Center: {x: 1.5000002, y: 0.625, z: -1.0000001}
